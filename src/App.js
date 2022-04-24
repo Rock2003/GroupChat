@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import React, { useRef, useState, useEffect } from 'react';
 import './App.css';
 
@@ -132,7 +132,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src={photoURL || 'https://imageio.forbes.com/blogs-images/kevinmurnane/files/2018/07/Incognito-icon_640sq_Nikin_Pixabay.jpg?format=jpg&width=1200'} />
+      <img src={photoURL || 'https://imageio.forbes.com/blogs-images/kevinmurnane/files/2018/07/Incognito-icon_640sq_Nikin_Pixabay.jpg?format=jpg&width=1200'} alt=''/>
       <p>{text}</p>
     </div>
   </>)
